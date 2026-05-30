@@ -28,3 +28,7 @@ The script performs the following steps:
 ```bash
 frida -U -p $(adb shell pidof com.comcast.mobile.xfinity) -l extract.js
 ```
+
+## AI Disclosure
+
+This project and its associated scripts were developed with the assistance of Gemini AI model, which provided architectural analysis of the Xfinity APK, helped resolve issues with library usage, and assisted in debugging the Frida hook implementation.
