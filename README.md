@@ -1,6 +1,6 @@
 # Xfinity OTP Extractor
 
-This tool extracts the stored OTP seed from the Xfinity Android application's "Code Generator". It achieves this by hooking into the `VaultImpl` class within the application and extracting the encoded secret from the keystore. The resulting seed value can be used in any TOTP authenticator such as Google Authenticator, Bitwarden, or Authy.
+This Frida script extracts the stored OTP seed from the Xfinity Android application's "Code Generator". It achieves this by hooking into the `VaultImpl` class within the application and extracting the encoded secret from the keystore. The resulting seed value can be used in any TOTP authenticator such as Google Authenticator, Bitwarden, or Authy.
 
 ## High-Level Overview
 
